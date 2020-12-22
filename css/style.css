@@ -1,0 +1,170 @@
+/** Css Template Made by Inderjit Singh ID:inderwadhs@gmail.com **/
+body{
+	//font-family:"Helvetica Neue",Helvetica,Arial,sans-serif !important;
+	color: #777!important;
+	font-family: "Open Sans", Arial, sans-serif;
+	line-height: 22px;
+	font-size: 13px;
+}
+.table {
+    width: 100%;
+    margin-bottom: 1rem;
+    color: #777;
+}
+.btn-default {
+    color: #333333;
+    background-color: #ffffff;
+    border-color: #cccccc;
+}
+.btn {
+   margin-left: 5px
+}
+	
+a{
+	text-decoration:none;}
+	
+a:hover{
+	text-decoration:none;}		
+	
+.bgcolor{
+	background-color: #f6f6f6;
+}
+.col-w{
+	color: #fff!important;
+}
+.col-b{
+	color: #33353f!important;
+}
+.padd0{
+	padding: 0px;
+}
+.fixed{
+	position: fixed;
+}
+.zi{
+	z-index: 99999999;
+}
+.w100{
+	width:100%;
+}
+.bgform{
+	background-color: #ecedf0;
+}
+.panel-body{
+	background: #fdfdfd;
+}
+.navbgclr{
+	background: #1d2127;
+}
+.nav{
+	max-height: 505px;
+	overflow-y: auto;
+	overflow-x: hidden;
+}
+
+.navh1{
+	width: 68px;
+	z-index: 9999999999;
+	background: #1d2127;
+	height: 1020px;
+	display: block;
+}
+.fontcolor{
+	color: #abb4be;
+	padding: 20px
+}
+.pointer{
+	cursor: pointer;
+}
+
+.spandiv{
+  display: none
+}
+
+.nav > li {
+    position: relative;
+    display: block;
+}
+
+.navh1:hover.navh1{
+ width: 250px!important;
+ float: left;
+ z-index: 9999999999;
+}
+
+.navh1:hover .spandiv {
+  	float: right;
+	padding: 15px 0px 0px 0px;
+	display: block;
+	z-index: 999999999;
+	//position: relative;
+}
+
+li:hover .fontcolor{color:#FFF!important; }
+
+.header{
+	position: fixed;
+	z-index: 1020;
+	//height: 60px;
+	left: 0;
+	//position: absolute;
+	right: 0;
+	top: 0;
+	background-color: #f6f6f6;
+	background-image: -webkit-linear-gradient(#f6f6f6 0%, white 45%);
+	background-image: linear-gradient(#f6f6f6 0%, white 45%);
+	border-bottom: 1px solid #E9E9E6;
+	border-top: 3px solid #EDEDED;
+}
+.full{
+    position:absolute;
+    top:0;
+    left:0;
+    width:100%;
+    height:100%;
+    z-index:1000;
+    margin-top:65px;
+}
+
+/** Form css start 
+ Css Template Made by Inderjit Singh 
+ ID:inderwadhs@gmail.com 
+ **/
+ 
+.hide{
+	display: none;
+}
+.show{
+	display: block;
+}
+.page-header {
+    z-index: 1001;
+}
+.page-header {
+    background: #34495e;
+    border-bottom: none;
+    border-left: 1px solid #3a3a3a;
+    box-shadow: 1px 3px 0 1px #cccccc;
+    height: 50px;
+}
+
+.page-header h4 {
+    color: #FFF;
+    float: left;
+    height: 50px;
+    padding: 10px;
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (max-width: 768px) {
+  .navh1 {display: none}
+
+  .res-mgtop{
+  	margin-top: 0px!important;
+  	padding: 0 10px 0 20px!important;
+  }
+  .res-pad{
+	padding-right: 30px!important;
+  }
+
+} 
